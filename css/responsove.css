@@ -1,8 +1,8 @@
 /* -------------------
-            11. Responsive (Media queries)
+            9. Responsive (Media queries)
 ----------------------------------------------- */
 
-/* -------- 11.1 Large devices (desktops) ----------- */
+/* -------- 9.1 Large devices (desktops) ----------- */
 /* -------- (desktops, 992px and up) ------- */
 
 @media (min-width: 992px) and (max-width: 1199.99px) { 
@@ -13,7 +13,7 @@
 
 
 
-/* -------- 11.2 Medium devices (tablets) ------ */
+/* -------- 9.2 Medium devices (tablets) ------ */
 /* -------- (tablets, 768px and up) ------------------ */
 
 @media (min-width: 768px) and (max-width: 991.99px) { 
@@ -24,7 +24,7 @@
 
 
 
-/* -------- 11.3 Small devices (landscape phones) ------ */
+/* -------- 9.3 Small devices (landscape phones) ------ */
 /* -------- (landscape phones, 576px and up) --------------- */
 @media (min-width: 576px) and (max-width: 767.99px) { 
     .container {
@@ -34,7 +34,7 @@
 
 
 
-/* -------- 11.4 Extra small devices (portrait phones) ------ */
+/* -------- 9.4 Extra small devices (portrait phones) ------ */
 /* -------- (portrait phones, less than 576px) ------- */
 @media (max-width: 575.99px) { 
     .container {
