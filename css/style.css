@@ -1,0 +1,373 @@
+/* 
+Template Name: html only template
+Template URL: https://darkcorner.inc
+Description: A practice project for well known about html only page structure
+    Author Name: Sad Abdullah
+    Author Website: 
+    Version: 1.0
+
+------------ table of contents ---------- ///
+
+1. Reset CSS style 
+-----------
+
+    1.1 General
+    1.2 Root style
+    1.3 Typography
+    1.4 Buttons
+
+2. Navbar
+3. Header
+4. Features
+5.Key-services
+6.Hot deal
+7.Advertise
+8.Instagram
+9 Call to Action
+10 Footer
+
+11. Responsive
+-----------------
+
+    11.1 Large devices (desktops)
+    11.2 Medium devices (tablets)
+    11.3 Small devices (landscape phones)
+    11.4 Extra small devices (portrait phones)
+
+
+-----------------------
+            1. Reset CSS style
+------------------------------------------------ */
+/* -------- 1.1 General --------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
+
+
+
+
+/* -------- 1.2 Root style --------- */
+
+:root {
+    --primary-color: #E55473;
+    --secondary-color: #111010;
+}
+
+
+
+/* -------- 1.3 Typography --------- */
+
+
+
+
+/* -------- 1.4 Buttons --------- */
+
+
+
+
+
+
+
+/* -- Global style -- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.section-txt {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 36px;
+}
+
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 19px 25px;
+    border: none;
+    border-radius: 6px;
+    background: #FF900E;
+    transition: 0.4s;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+
+.btn-primary:hover {
+    color: #FFF;
+    background-color: #424242;
+}
+
+
+/* -- navbar area style -- */
+#navbar {
+    background: #FFF4E7;
+    border: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+
+#navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.nav-logo img {
+    width: 125px;
+    height: auto;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style-type: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 16px 0;
+    margin-left: 36px;
+    transition: 0.4s;
+}
+
+#navbar ul li a:hover {
+    color: #FF900E;
+}
+
+
+#navbar ul li .nav-btn {
+    color: #FFF;
+    border-radius: 6px;
+    background: #FF900E;
+    padding: 16px 24px;
+}
+
+
+#navbar ul li .nav-btn:hover {
+    color: #FFF;
+    background-color: #424242;
+}
+
+
+
+
+/* -- header area style -- */
+#header {
+    background: #FFF4E7;
+    padding: 95px 0 45px;
+}
+
+.header-content {
+    max-width: 676px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.header-content h1 {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+.header-content .tab {
+    display: none;
+}
+
+.header-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* -- team area style -- */
+.team {
+    padding: 96px 0;
+}
+
+#team-container {
+    display: flex;
+    align-items: center;
+}
+
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.team-img-container img {
+    width: 342px;
+    height: auto;
+}
+
+.team-content {
+    padding-left: 76px;
+}
+
+
+
+
+/* -- features area style -- */
+#features-container {
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-content {
+    width: 50%;
+    padding-right: 96px;
+}
+
+.features-content h2 {
+    border-left: 6px solid #FF900E;
+    padding-left: 21px;
+}
+
+.features-content .cards {
+    padding: 29px 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.cards h3 {
+    margin-bottom: 10px;
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.features-img {
+    width: 50%;
+}
+
+.features-img img {
+    width: 100%;
+    height: auto;
+    margin-top: 96px;
+}
+
+.features-img .experiance {
+    padding: 45px 49px;
+    border-radius: 6px;
+    display: inline-block;
+    background: #FF900E;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    left: -50px;
+}
+
+.experiance h2 {
+    color: #FFF;
+    margin-bottom: 19px;
+}
+
+.experiance p {
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* -- fact area style -- */
+.fact-area {
+    margin-bottom: 96px;
+}
+
+.fact-content {
+    max-width: 676px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fact-content p {
+    margin-bottom: 56px;
+}
+
+.fact-badge-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 46px;
+}
+
+.fact-badge {
+    padding: 45px 49px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #FF900E;
+}
+
+.fact-badge h2 {
+    margin-bottom: 10px;
+}
+
+.fact-badge p {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+
+
+
+/* -- sponsor area style -- */
+.sponsor {
+    padding-bottom: 96px;
+}
+
+.sponsor-img-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+}
+
+
+
+
+/* -- footer area style -- */
+#footer {
+    margin-bottom: 96px;
+}
+
+#footer-container {
+    padding: 36px 46px;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+
+.footer-content p {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+}
